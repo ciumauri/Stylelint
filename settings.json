@@ -1,0 +1,102 @@
+{
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "github.copilot.enable": {
+    "yaml": false,
+    "*": true,
+    "plaintext": true,
+    "markdown": false
+  },
+  "workbench.panel.defaultLocation": "right",
+  "editor.accessibilitySupport": "off",
+  "editor.fontLigatures": true,
+  "colorize.languages": [
+    "javascript",
+    "css"
+  ],
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "explorer.experimental.fileNesting.enabled": true,
+  "explorer.experimental.fileNesting.patterns": {
+    "*.jsx": "$(capture).js, $(capture).test.jsx, $(capture).spec.jsx",
+    "*.tsx": "$(capture).js, $(capture).test.tsx, $(capture).spec.tsx",
+    "*.js": "$(capture).js, $(capture).test.js, $(capture).spec.js",
+    "*.ts": "$(capture).js, $(capture).test.ts, $(capture).spec.ts"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.git": true,
+    "**/.rts*": true,
+    "**/.svn": true,
+    "**/.next": true,
+    "**/.docz": true
+  },
+  "tailwindCSS.experimental.classRegex": [
+    "tailed`([^`]*)",
+    "tailed\\(.*?\\)`([^`]*)",
+    "tail`([^`]*)"
+  ],
+  "sync.forceDownload": true,
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontSize": 12,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.autoClosingQuotes": "always",
+  "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "sync.quietSync": true,
+  "terminal.explorerKind": "external",
+
+  "editor.inlineSuggest.enabled": true,
+  "sync.autoUpload": true,
+  "editor.wordWrapColumn": 120,
+  "markdown.extension.toc.levels": "2..6",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "tailwindCSS.includeLanguages": {
+    "typescriptreact": "javascript",
+    "typescript": "javascript"
+  },
+  "workbench.sideBar.location": "left",
+  "sync.autoDownload": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "vscode-icons",
+  "markdown.extension.tableFormatter.normalizeIndentation": true,
+  "terminal.integrated.tabs.enabled": true,
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "breadcrumbs.enabled": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "terminal.integrated.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "workbench.activityBar.visible": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "sync.forceUpload": true,
+  "redhat.telemetry.enabled": false,
+  "prettier.requireConfig": true,
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1,
+  "prettier.configPath": "~/mnt/d/projetos/development/js/www/work",
+  "bracket-pair-colorizer-2.depreciation-notice": false
+}
