@@ -1,0 +1,9 @@
+wsl --shutdown #Reiniciar o WSL após instalar dependencias do nodejs/npm/zsh
+
+npm i yarn
+yarn init #criar package json
+yarn add --dev lint-staged husky  @commitlint/config-conventional @commitlint/cli #dependencias de desenvolvimento
+yarn husky install .husky
+yarn add --dev npm-run-all
+yarn add --dev @babel/cli @babel/core @babel/node @babel/preset-env 
+yarn add --dev @babel/plugin-proposal-optional-chaining babel-plugin-module-resolver
