@@ -7,3 +7,6 @@ yarn husky install .husky
 yarn add --dev npm-run-all
 yarn add --dev @babel/cli @babel/core @babel/node @babel/preset-env 
 yarn add --dev @babel/plugin-proposal-optional-chaining babel-plugin-module-resolver
+
+yarn add dotenv
+#.env = SERVER_PORT
