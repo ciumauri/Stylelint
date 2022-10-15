@@ -10,3 +10,7 @@ yarn add --dev @babel/plugin-proposal-optional-chaining babel-plugin-module-reso
 
 yarn add dotenv
 #.env = SERVER_PORT
+
+
+Web Aplication React
+yarn add --dev eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-json
